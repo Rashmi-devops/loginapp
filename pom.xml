@@ -74,15 +74,14 @@
 	<distributionManagement>
 	
 		<repository>
-			<id>nexus</id>
-			<name>MPMS_Release</name>
+			<id>MPMS_Release</id>
+			
 			<url>http://13.232.26.148:8081/repository/MPMS_Release/</url>
 		</repository>
 		
 		<snapshotRepository>
-			<id>nexus</id>
-			<name>MPMS_Snapshot</name>
-			<url>http://13.232.26.148:8081/repository/MPMS_Snapshot/</url>
+			<id>MPMS_Snapshot</id>
+		       <url>http://13.232.26.148:8081/repository/MPMS_Snapshot/</url>
 		</snapshotRepository>
 	</distributionManagement>
 	
